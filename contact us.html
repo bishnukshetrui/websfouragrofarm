@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.four Agro Farm</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="cont-us">
+        
+        <nav>
+            <a href="about.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="Products.html">PRODUCTS</a></li>
+                    <li><a href="contact us.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>  Contact Us</h1>
+            <p> <i> "Feel Free to contact us"  </i> </p>
+        </div>
+
+    </section>
+
+
+<!--------Team's says------>
+
+<section class="course">
+    <h1> Contact Detials </h1>
+    
+        <div class="course-col">
+            <h3> <br> S.Four Agro Farm Private Limited Company </h3>
+            <p> <b> Title :</b> S. Four Agro farm Private Limited
+                <br>
+                <b>Address : </b>  Sainamaina 3 Rupandehi Nepal
+                <br>
+                <b> Email :</b>  company@sfouragrofarm.com.np
+                <br>
+                <b> Website :</b>  www.sfouragrofarm.com.np
+                <br>
+                <b> Legal status :</b>  Office of the company registrar Nepal
+                <br>
+                <b>  Registered Date:</b>  2020-11-29
+                <br>
+                <b> C.R.No: </b>  248427/077/078
+                <br>
+                <b>License No:</b>  5324/077/78
+                <br>
+                <b> Corporate Bank   :</b>  NIC Asia Bank limited 
+                <br> <br>
+                <b> Chairperson:</b>   Mr. Ajay Karki
+                <br>
+                <b> Email:</b>  ajay@sfouragrofarm.com.np
+                <br> <br>
+                <b>Managing Director:</b>  Mr. Bal Krishna Regmi
+                <br>
+                Email:</b>  balkrishna@sfouragrofarm.com.np
+                <br> <br>
+                <b>Director:</b>  Mr. Tek Prased Shrestha Mobile 
+                <br>
+                <b>Email:</b>  tek@sfouragrofarm.com.np
+                <br> <br>
+                <b>Director:</b>  Mr. Kamal Prasad Ghimire 
+                <br>
+                <b>Email:</b>  kamal@sfouragrofarm.com.np
+                <br> <br>
+                <b>IT Manger:</b>  Mr. Bishnu Bahadur Chhetri     
+                <br>
+               <b> Email:</b>  bishnu@sfouragrofarm.com.np</p>
+        </div>
+    </div>
+</section>
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7188.402872058591!2d83.34083913053111!3d27.687117108253368!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa66603fe9dd7b452!2sS.four%20Agro%20Farm!5e1!3m2!1sen!2sus!4v1665411833632!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+
+<section class="contact-us">   
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Lumbini Province Sainamaina-3</h5>
+                    <p>Rupandehi Nepal</p>
+                </span>
+            </div>
+            
+            <div>
+               
+                <i class="fa fa-phone"></i>      
+                <span>
+                    <h5>+977986665777 <i class="fa fa-whatsapp"></i> </h5>
+                    <p>Sunday to Friday, 10am to 5pm</p>
+                </span>
+            </div>
+           <div class="containttime">
+            <p>Nepal's Time is <p> </p>  <br> </p>
+            <h8 id="current-time"> 12:00:00 width="24px" </h8>
+           </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>Email us</h5>
+                    <p>company@sfouragrofarm.com.np</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <form action="connect.php" method="post"> 
+                <input type="text" placeholder="Enter Your Name" required>
+                <input type="email" placeholder="Enter Your email address" required>
+                <input type="text" placeholder="Enter Your Country" required>
+                <textarea rows="8" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+            </div>
+     </div>
+</div>
+</section>
+<div class="container">
+    <h1 id="current-time"></h1>
+    
+</div>
+<script>
+    let time = document.getElementById("current-time");
+    setInterval(() =>{
+        let d = new Date();
+    time.innerHTML = d.toLocaleTimeString();
+    },1000)
+    
+</script>
+</body>
+
+<!-------footer-------->
+<section class="footer">
+    <div>Copyright © 2022 S.four Agrofarm </div>
+</section>
